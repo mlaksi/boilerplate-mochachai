@@ -80,6 +80,7 @@ suite("Unit Tests", function () {
   }
 
   suite("Comparisons", function () {
+    //good way to teach kids about > < >= <=
     // #8
     test("#isAbove, #isAtMost", function () {
       assert.isAtMost("hello".length, 5);
